@@ -40,13 +40,33 @@ clause, and obtain signed assignments from any contributor who lacks one.
 | | |
 |---|---|
 | Principal author of record | Anthony Saint · tony.saint30@gmail.com |
-| Version-controlled from | **9 June 2026** — first commit of the private repository |
-| Commits to date | 26, all authored under the above identity |
+| Earliest version-controlled evidence | **15 February 2026** — first commit of the private `ingo-app` repository |
+| Current implementation from | **9 June 2026** — first commit of the private `ingo-ride` repository |
+| Commits to date | 35 across the two repositories, all authored under the above identity |
 | Current version | Application 1.0.0, tester build v002, 21 September 2026 |
-| Earlier origin | The application began as an interactive prototype built on a hosted development platform **before** the private repository was created. **[OWNER — supply the earlier evidence: platform export dates, design-file history, invoices.]** |
 
-The private repository is the fuller creation record; it remains private and is
-not published here. Its commit history is available for in-camera review.
+The work has been developed across two private repositories, neither published
+here, both available for in-camera review:
+
+- **`ingo-app`** — the original build, from 15 February 2026. A web/PWA
+  implementation of the passenger and driver interfaces.
+- **`ingo-ride`** — the current build, from 9 June 2026. The native Android
+  application and its server, which the screenshots in this record depict.
+
+### Origin before version control
+
+The owner states that work on INGO began in **2025**, before either repository
+was created.
+
+**No version-control evidence of a 2025 date exists in either repository** — the
+earliest commit anywhere is 15 February 2026. A creation date earlier than that
+is entirely plausible, since the original build was produced on a hosted
+design-to-code platform and only committed to git afterwards, but it must be
+evidenced from outside git before it is asserted in a filing.
+
+**[OWNER — supply the 2025 evidence: design-file version history, platform
+project creation dates, dated exports, emails, invoices, contracts or briefs.]**
+Any of these would establish the earlier date; the git history alone cannot.
 
 ## 4. Matters requiring confirmation before filing
 
@@ -54,14 +74,23 @@ These are factual matters the owner must resolve with their practitioner. They
 are recorded here because a registration should not be made without them being
 considered.
 
-1. **AI-assisted development.** A substantial part of the implementation was
-   produced with an AI coding assistant working under the author's direction.
-   25 of the 26 commits in the private repository carry a machine-generated
-   co-author trailer recording this. The work was conceived, specified, directed,
-   reviewed and accepted by the human author throughout. How AI assistance bears
-   on authorship and on the scope of protection is a legal question, and one on
-   which practice is unsettled — it should be put to the practitioner directly
-   rather than assumed either way.
+1. **AI-assisted and AI-generated development.** Two distinct matters, both to be
+   put to the practitioner directly rather than assumed either way:
+
+   - **AI coding assistant.** Much of the implementation was produced with an AI
+     assistant working under the author's direction. 33 of the 35 commits across
+     the two repositories carry a machine-generated co-author trailer recording
+     this. The work was conceived, specified, directed, reviewed and accepted by
+     the human author throughout.
+   - **Design-to-code platform.** The original `ingo-app` build was generated on
+     a hosted design-to-code platform; its package manifest still identifies it
+     as such an export. Both the platform's terms — which govern who owns
+     generated output — and the extent to which that output is the author's own
+     expression need checking.
+
+   How AI involvement bears on authorship and on the scope of protection is a
+   legal question on which practice is unsettled. It should not be papered over,
+   and a registration should not be filed without addressing it.
 
 2. **Third-party components.** The application is built on open-source
    frameworks and libraries under their own licences (see
@@ -92,7 +121,7 @@ filing — see the checklist below.
 - [ ] Review all developer contracts for IP assignment clauses
 - [ ] Obtain signed assignments from any contributor lacking one
 - [ ] Settle the AI-assistance question with the practitioner (§4.1)
-- [ ] Supply the pre-repository creation evidence (§3)
+- [ ] Supply evidence for the stated 2025 origin — git shows nothing before 15 Feb 2026 (§3)
 - [ ] Archive the APK builds with their timestamps
 - [ ] Prepare the sealed deposit — APK, screenshots, description, version, date
 - [ ] Notarise and deposit the sealed copy with an advocate
