@@ -53,21 +53,6 @@ here, both available for in-camera review:
 - **`ingo-ride`** — the current build, from 9 June 2026. The native Android
   application and its server, which the screenshots in this record depict.
 
-### Origin before version control
-
-The owner states that work on INGO began in **2025**, before either repository
-was created.
-
-**No version-control evidence of a 2025 date exists in either repository** — the
-earliest commit anywhere is 15 February 2026. A creation date earlier than that
-is entirely plausible, since the original build was produced on a hosted
-design-to-code platform and only committed to git afterwards, but it must be
-evidenced from outside git before it is asserted in a filing.
-
-**[OWNER — supply the 2025 evidence: design-file version history, platform
-project creation dates, dated exports, emails, invoices, contracts or briefs.]**
-Any of these would establish the earlier date; the git history alone cannot.
-
 ## 4. Matters requiring confirmation before filing
 
 These are factual matters the owner must resolve with their practitioner. They
@@ -121,7 +106,7 @@ filing — see the checklist below.
 - [ ] Review all developer contracts for IP assignment clauses
 - [ ] Obtain signed assignments from any contributor lacking one
 - [ ] Settle the AI-assistance question with the practitioner (§4.1)
-- [ ] Supply evidence for the stated 2025 origin — git shows nothing before 15 Feb 2026 (§3)
+- [ ] Add any dated evidence of earlier creation, if it exists (design-file history, platform exports)
 - [ ] Archive the APK builds with their timestamps
 - [ ] Prepare the sealed deposit — APK, screenshots, description, version, date
 - [ ] Notarise and deposit the sealed copy with an advocate
