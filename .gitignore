@@ -1,0 +1,9 @@
+# Nothing built or secret belongs in this record.
+.env
+.env.*
+*.apk
+*.keystore
+*.jks
+node_modules/
+.DS_Store
+Thumbs.db
