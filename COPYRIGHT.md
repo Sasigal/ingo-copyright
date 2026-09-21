@@ -40,6 +40,7 @@ clause, and obtain signed assignments from any contributor who lacks one.
 | | |
 |---|---|
 | Principal author of record | Anthony Saint · tony.saint30@gmail.com |
+| Earliest dated evidence of creation | **10 November 2025** — original design files (see below) |
 | Earliest version-controlled evidence | **15 February 2026** — first commit of the private `ingo-app` repository |
 | Current implementation from | **9 June 2026** — first commit of the private `ingo-ride` repository |
 | Commits to date | 35 across the two repositories, all authored under the above identity |
@@ -52,6 +53,34 @@ here, both available for in-camera review:
   implementation of the passenger and driver interfaces.
 - **`ingo-ride`** — the current build, from 9 June 2026. The native Android
   application and its server, which the screenshots in this record depict.
+
+### Creation before version control — November 2025
+
+Design and concept work on INGO predates both repositories by three months. The
+owner retains the original working files, held offline and not published here:
+
+| Date | Material |
+|---|---|
+| 10 November 2025 | `IngoApp-Mockup.ai`, `IngoApp-Mockup1/2` — the original Adobe Illustrator interface mockups |
+| 10 November 2025 | `ingo-splash.psd`, `ingo-splash.png` — the original splash-screen artwork |
+| 13 November 2025 | `IFT Needs Checklist.xlsx` — requirements checklist |
+| 15 November 2025 | `INGO-Pitch-Deck.pptx` — concept pitch deck |
+| 15 November 2025 | `INGO-Terms-of-Reference.docx` — terms of reference |
+| 17 November 2025 | `Ingo-Splash.ai`, `IngoBnr.psd`, brand and banner artwork; `IFT Ltd — Proposal Concept.pdf` |
+| 26 November 2025 | `INGO - Website Content.docx` — written content |
+
+The dates for the Office documents are taken from each file's **embedded
+`dcterms:created` metadata**, not merely its filesystem timestamp; the design
+files are dated by filesystem timestamp. The earliest embedded date is
+13 November 2025 and the earliest file of any kind is 10 November 2025.
+
+These establish that the interface design, brand identity, written content and
+product concept were fixed in tangible form in **November 2025** — before any
+code was committed, and before any AI tooling was involved in the work.
+
+**[OWNER — these files should form part of the sealed notarised deposit. If
+material predating 10 November 2025 exists elsewhere (email, cloud storage,
+another device), supply it and this section will be extended.]**
 
 ## 4. Matters requiring confirmation before filing
 
@@ -106,7 +135,7 @@ filing — see the checklist below.
 - [ ] Review all developer contracts for IP assignment clauses
 - [ ] Obtain signed assignments from any contributor lacking one
 - [ ] Settle the AI-assistance question with the practitioner (§4.1)
-- [ ] Add any dated evidence of earlier creation, if it exists (design-file history, platform exports)
+- [ ] Include the November 2025 design and concept files in the sealed deposit (§3)
 - [ ] Archive the APK builds with their timestamps
 - [ ] Prepare the sealed deposit — APK, screenshots, description, version, date
 - [ ] Notarise and deposit the sealed copy with an advocate
