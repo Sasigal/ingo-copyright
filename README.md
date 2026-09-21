@@ -3,9 +3,9 @@
 **Copyright deposit and authorship record**
 Mobile application · Uganda · Android
 
-> © 2026 **[OWNER — insert registered entity or individual name]**. All rights
-> reserved. Unauthorised reproduction or distribution of this application, in
-> whole or in part, is prohibited.
+> © 2026 **Ingo Female Transporters Ltd**. All rights reserved. Unauthorised
+> reproduction or distribution of this application, in whole or in part, is
+> prohibited.
 
 ---
 

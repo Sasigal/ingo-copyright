@@ -18,8 +18,10 @@
 
 ## 2. Claimed owner
 
-**[OWNER — insert the registered Ugandan company, or the individual, in whom
-copyright is claimed to vest.]**
+**Ingo Female Transporters Ltd** — a company registered in Uganda.
+
+**[OWNER — confirm the exact registered name as it appears on the certificate of
+incorporation, and add the company registration number, before filing.]**
 
 Ownership turns on how the work was made:
 
@@ -78,9 +80,13 @@ These establish that the interface design, brand identity, written content and
 product concept were fixed in tangible form in **November 2025** — before any
 code was committed, and before any AI tooling was involved in the work.
 
-**[OWNER — these files should form part of the sealed notarised deposit. If
-material predating 10 November 2025 exists elsewhere (email, cloud storage,
-another device), supply it and this section will be extended.]**
+These files should form part of the sealed notarised deposit. Note that the
+November 2025 proposal document is titled for **IFT Ltd** — Ingo Female
+Transporters Ltd — which corroborates the claimed owner as the originator of the
+work from the outset.
+
+**[OWNER — if material predating 10 November 2025 exists elsewhere (email, cloud
+storage, another device), supply it and this section will be extended.]**
 
 ## 4. Matters requiring confirmation before filing
 
@@ -122,7 +128,7 @@ considered.
 The notice to appear on the About screen, the splash screen and in the Terms of
 Service:
 
-> © 2026 [OWNER]. All rights reserved. Unauthorised reproduction or distribution
+> © 2026 Ingo Female Transporters Ltd. All rights reserved. Unauthorised reproduction or distribution
 > of this application, in whole or in part, is prohibited.
 
 **Status: not yet added to the application.** This should be done before
@@ -130,7 +136,8 @@ filing — see the checklist below.
 
 ## 6. Pre-filing checklist
 
-- [ ] Insert the owner's registered name throughout this repository
+- [x] Insert the owner's registered name throughout this repository
+- [ ] Confirm the exact registered name and add the company registration number
 - [ ] Add the copyright notice to the About screen and Terms of Service
 - [ ] Review all developer contracts for IP assignment clauses
 - [ ] Obtain signed assignments from any contributor lacking one
