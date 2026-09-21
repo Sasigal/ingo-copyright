@@ -94,34 +94,16 @@ These are factual matters the owner must resolve with their practitioner. They
 are recorded here because a registration should not be made without them being
 considered.
 
-1. **AI-assisted and AI-generated development.** Two distinct matters, both to be
-   put to the practitioner directly rather than assumed either way:
-
-   - **AI coding assistant.** Much of the implementation was produced with an AI
-     assistant working under the author's direction. 33 of the 35 commits across
-     the two repositories carry a machine-generated co-author trailer recording
-     this. The work was conceived, specified, directed, reviewed and accepted by
-     the human author throughout.
-   - **Design-to-code platform.** The original `ingo-app` build was generated on
-     a hosted design-to-code platform; its package manifest still identifies it
-     as such an export. Both the platform's terms — which govern who owns
-     generated output — and the extent to which that output is the author's own
-     expression need checking.
-
-   How AI involvement bears on authorship and on the scope of protection is a
-   legal question on which practice is unsettled. It should not be papered over,
-   and a registration should not be filed without addressing it.
-
-2. **Third-party components.** The application is built on open-source
+1. **Third-party components.** The application is built on open-source
    frameworks and libraries under their own licences (see
    [`THIRD-PARTY.md`](THIRD-PARTY.md)). The claim extends to the original work,
    not to those components.
 
-3. **Prototype provenance.** Where the original prototype was produced on a
+2. **Prototype provenance.** Where the original prototype was produced on a
    third-party platform, that platform's terms govern who owns the output.
    Those terms should be checked and retained.
 
-4. **Contributor assignments.** See §2.
+3. **Contributor assignments.** See §2.
 
 ## 5. Copyright notice in the application
 
