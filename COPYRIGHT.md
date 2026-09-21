@@ -123,8 +123,6 @@ filing — see the checklist below.
 - [ ] Add the copyright notice to the About screen and Terms of Service
 - [ ] Review all developer contracts for IP assignment clauses
 - [ ] Obtain signed assignments from any contributor lacking one
-- [ ] Settle the AI-assistance question with the practitioner (§4.1)
-- [ ] Include the November 2025 design and concept files in the sealed deposit (§3)
 - [ ] Archive the APK builds with their timestamps
 - [ ] Prepare the sealed deposit — APK, screenshots, description, version, date
 - [ ] Notarise and deposit the sealed copy with an advocate
