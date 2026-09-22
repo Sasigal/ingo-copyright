@@ -85,9 +85,6 @@ November 2025 proposal document is titled for **IFT Ltd** — Ingo Female
 Transporters Ltd — which corroborates the claimed owner as the originator of the
 work from the outset.
 
-**[OWNER — if material predating 10 November 2025 exists elsewhere (email, cloud
-storage, another device), supply it and this section will be extended.]**
-
 ## 4. Matters requiring confirmation before filing
 
 These are factual matters the owner must resolve with their practitioner. They
