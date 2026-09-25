@@ -28,9 +28,8 @@ See [§6](#6-what-is-deliberately-not-here).
 
 ## 2. The work
 
-**INGO** is a ride-hailing platform for Uganda in which **every driver is a
-woman**. Passengers may be of any gender — the all-women constraint applies to
-who drives, not to who rides. The platform serves Kampala, Entebbe and Jinja.
+**INGO** is an all women drivers ride-hailing platform from Uganda serving Passengers from all walks of life — the all-women constraint applies to
+who drives, not to who rides. Ingo Women Transporters currently operate in kampala, Entebbe and Jinja.
 
 That distinction shapes the product. Because riders are not restricted, each
 driver decides for herself which riders she will carry, and the app makes that
