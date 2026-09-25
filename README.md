@@ -28,25 +28,98 @@ See [§6](#6-what-is-deliberately-not-here).
 
 ## 2. The work
 
-**INGO** is an all-women ride-hailing platform for Uganda — women passengers
-matched with verified women drivers — serving Kampala, Entebbe and Jinja.
+**INGO** is a ride-hailing platform for Uganda in which **every driver is a
+woman**. Passengers may be of any gender — the all-women constraint applies to
+who drives, not to who rides. The platform serves Kampala, Entebbe and Jinja.
 
-Its distinguishing features, each an original expression fixed in this work:
+That distinction shapes the product. Because riders are not restricted, each
+driver decides for herself which riders she will carry, and the app makes that
+an explicit control rather than an informal practice.
 
-| Element | Description |
-|---|---|
-| **Two-sided price negotiation** | The passenger proposes their own fare; nearby drivers accept or counter; the passenger chooses both the driver and the price. A floor set as a percentage of the system estimate is enforced. |
-| **Three ride tiers** | EcoRide, ComfortRide and PremiumRide, each with its own base, per-kilometre and per-minute rate card, priced in Ugandan shillings. |
-| **Capped platform commission** | A hard ceiling on the platform's share of any fare, enforced server-side rather than by policy alone. |
-| **Driver client preference** | A driver may accept all riders, women only, or women at night only — the safety promise expressed as a product control. |
-| **Driver float and settlement** | A driver wallet from which the platform commission is deducted on cash trips and to which earnings are credited on in-app trips. |
-| **Integrated safety layer** | SOS alert, emergency contacts, automatic trip sharing, optional audio recording, and a 24/7 hotline. |
-| **Auto-services marketplace** | Mechanics, spare parts, car wash, tyres, accessories and drivers, reachable from both the passenger and driver sides. |
+### 2.1 How a ride works
 
-The application comprises **32 distinct screens** across a passenger interface
-and a driver interface sharing one role-switched shell.
+The platform does not set the price. A rider enters a destination and sees a
+system estimate built from a per-tier rate card; she then **names her own fare**.
+Nearby drivers see both her offer and the system estimate, and may accept it,
+counter it, or decline. The rider sees every response — each with the driver's
+name, rating, trip count, vehicle and arrival time — and **chooses both the
+driver and the price**. On mutual acceptance the fare is locked and cannot move.
 
-### Protected elements
+Guards bound the negotiation: a rider cannot offer below a set percentage of the
+estimate, nor above a sanity ceiling that catches a mistyped amount; a driver can
+always accept a standing offer as posted, and her counters are capped so the
+mechanism cannot be used to gouge.
+
+A trip then runs assigned → heading over → arrived → in progress → complete, with
+both sides watching the same state, and ends with an itemised fare and a rating.
+
+Three tiers are offered — **EcoRide**, **ComfortRide** and **PremiumRide** — each
+with its own base, per-kilometre and per-minute rates in Ugandan shillings, and
+each with a minimum fare. Wait-period options (immediate, short wait, flexible,
+scheduled) carry their own fees and arrival timeouts.
+
+### 2.2 Safety
+
+Safety is the platform's reason for existing, and is expressed throughout rather
+than as a single feature:
+
+- **Women drivers only.** The defining constraint, and the basis of the brand.
+- **Driver client preference.** Each driver sets whether she accepts all riders,
+  **women only**, or **women only at night** — the night window being
+  configurable rather than fixed. The server enforces this when deciding which
+  requests she is shown, so it is a matching rule, not a request she must police
+  herself.
+- **SOS.** A one-tap alert, reachable from the home screen, the safety centre and
+  during a trip, notifying her emergency contacts and INGO support with her live
+  location.
+- **Emergency contacts.** Managed in-app and notified on an alert.
+- **Automatic trip sharing.** Every trip can be shared with those contacts
+  without further action.
+- **Optional audio recording** during trips.
+- **A 24-hour hotline**, free to call, presented prominently in the safety centre.
+- **Identity verification for drivers** — a face check that, when enabled, gates
+  a driver from going online until it passes.
+- **Verified phone numbers.** Both riders and drivers sign in by one-time code.
+- **Live location.** A driver's position is reported only while she is online and
+  never when she is off duty, and a position that is not current is treated as
+  unreachable rather than trusted.
+- **A platform-wide access control** allowing all sign-in to be disabled
+  centrally, which also clears sessions already on devices.
+
+### 2.3 Earnings and settlement
+
+Drivers keep the large majority of every fare. The platform's commission is
+**capped absolutely**, with lower rates for new drivers and for high-volume
+drivers, and the ceiling is enforced by the server rather than by policy.
+
+Each driver holds a **float** with a full transaction ledger. On a cash trip the
+rider pays her directly and the commission is debited from that float; on an
+in-app trip her share is credited to it. She can top up and withdraw from the
+earnings screen, which also shows trips, hours online, average fare and
+acceptance rate by period. A **remittance limit** blocks further cash trips once
+the commission owed passes a threshold, so debt cannot accumulate indefinitely.
+
+Payment is by cash or mobile money, the method recorded against each trip.
+
+### 2.4 Services marketplace
+
+Beyond rides, the app carries a directory of vetted automotive services —
+**mechanics, spare parts, car wash, tyres, accessories and drivers** — browsable
+by category, with providers able to be marked verified and featured. It is
+reachable from **both** the rider and the driver interfaces, so it serves a
+driver maintaining her vehicle as much as a rider needing a garage.
+
+### 2.5 Everyday use
+
+Saved places for home, work and custom locations; recent and popular
+destinations; full trip history with fares; ratings with positive-attribute tags;
+editable profiles; payment method selection; in-app messaging and calling between
+rider and driver during a trip; and live maps throughout.
+
+The application comprises **32 distinct screens** across a rider interface and a
+driver interface sharing one role-switched shell.
+
+### 2.6 Protected elements
 
 - the **compiled application** (the Android APK) — as a literary work
 - the **user interface and screen designs** — as artistic works, each screen
