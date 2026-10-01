@@ -88,8 +88,8 @@ than as a single feature:
 ### 2.3 Earnings and settlement
 
 Drivers keep the large majority of every fare. The platform's commission is
-**capped absolutely**, with lower rates for new drivers and for high-volume
-drivers, and the ceiling is enforced by the server rather than by policy.
+a single standard rate, **capped absolutely**, and the cap is enforced by the
+server rather than by policy.
 
 Each driver holds a **float** with a full transaction ledger. On a cash trip the
 rider pays her directly and the commission is debited from that float; on an
